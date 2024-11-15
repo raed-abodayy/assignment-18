@@ -9,6 +9,6 @@ Character officer2= new Character("raed",100,new Position(1,1,1) );
     public override void DisplayInfo()
     {
         Debug.Log("officer");
-        base.DisplayInfo();
+        officer2.DisplayInfo();
     }
 }
